@@ -18,6 +18,14 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\DLLs\\select.pyd',
    'EXTENSION'),
+  ('unicodedata',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_bz2',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
   ('_socket',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\DLLs\\_socket.pyd',
@@ -26,10 +34,6 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\DLLs\\_lzma.pyd',
    'EXTENSION'),
-  ('_bz2',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\DLLs\\_bz2.pyd',
-   'EXTENSION'),
   ('_hashlib',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\DLLs\\_hashlib.pyd',
@@ -37,10 +41,6 @@
   ('_ssl',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\DLLs\\_ssl.pyd',
-   'EXTENSION'),
-  ('unicodedata',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\DLLs\\unicodedata.pyd',
    'EXTENSION'),
   ('pyexpat',
    'c:\\program files (x86)\\microsoft visual '
