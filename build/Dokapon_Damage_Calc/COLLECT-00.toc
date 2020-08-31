@@ -6,25 +6,17 @@
    'C:\\Users\\DARWIN2582\\source\\repos\\Dokapon Damage Calc\\Dokapon Damage '
    'Calc\\build\\Dokapon_Damage_Calc\\Dokapon_Damage_Calc.exe.manifest',
    'BINARY'),
-  ('VCRUNTIME140.dll',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\VCRUNTIME140.dll',
-   'BINARY'),
   ('python37.dll',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\python37.dll',
    'BINARY'),
+  ('VCRUNTIME140.dll',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\VCRUNTIME140.dll',
+   'BINARY'),
   ('select',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\DLLs\\select.pyd',
-   'EXTENSION'),
-  ('unicodedata',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\DLLs\\unicodedata.pyd',
-   'EXTENSION'),
-  ('_bz2',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\DLLs\\_bz2.pyd',
    'EXTENSION'),
   ('_socket',
    'c:\\program files (x86)\\microsoft visual '
@@ -34,6 +26,10 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\DLLs\\_lzma.pyd',
    'EXTENSION'),
+  ('_bz2',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
   ('_hashlib',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\DLLs\\_hashlib.pyd',
@@ -41,6 +37,10 @@
   ('_ssl',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('unicodedata',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\DLLs\\unicodedata.pyd',
    'EXTENSION'),
   ('pyexpat',
    'c:\\program files (x86)\\microsoft visual '

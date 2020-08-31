@@ -20,29 +20,21 @@
    'C:\\Users\\DARWIN2582\\source\\repos\\Dokapon Damage Calc\\Dokapon Damage '
    'Calc\\Dokapon_Damage_Calc.py',
    'PYSOURCE')],
- [('_py_abc',
+ [('tokenize',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\_py_abc.py',
+   'studio\\shared\\python37_64\\lib\\tokenize.py',
    'PYMODULE'),
-  ('typing',
+  ('argparse',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\typing.py',
+   'studio\\shared\\python37_64\\lib\\argparse.py',
    'PYMODULE'),
-  ('contextlib',
+  ('textwrap',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\contextlib.py',
+   'studio\\shared\\python37_64\\lib\\textwrap.py',
    'PYMODULE'),
   ('copy',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\copy.py',
-   'PYMODULE'),
-  ('quopri',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\quopri.py',
-   'PYMODULE'),
-  ('getopt',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\getopt.py',
    'PYMODULE'),
   ('gettext',
    'c:\\program files (x86)\\microsoft visual '
@@ -51,6 +43,10 @@
   ('struct',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\struct.py',
+   'PYMODULE'),
+  ('token',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\token.py',
    'PYMODULE'),
   ('os',
    'c:\\program files (x86)\\microsoft visual '
@@ -72,6 +68,10 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\_threading_local.py',
    'PYMODULE'),
+  ('contextlib',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\contextlib.py',
+   'PYMODULE'),
   ('signal',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\signal.py',
@@ -87,14 +87,6 @@
   ('calendar',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\calendar.py',
-   'PYMODULE'),
-  ('argparse',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\argparse.py',
-   'PYMODULE'),
-  ('textwrap',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\textwrap.py',
    'PYMODULE'),
   ('ntpath',
    'c:\\program files (x86)\\microsoft visual '
@@ -115,34 +107,6 @@
   ('stat',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\stat.py',
-   'PYMODULE'),
-  ('base64',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\base64.py',
-   'PYMODULE'),
-  ('stringprep',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\stringprep.py',
-   'PYMODULE'),
-  ('bz2',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\bz2.py',
-   'PYMODULE'),
-  ('_compression',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\_compression.py',
-   'PYMODULE'),
-  ('tracemalloc',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\tracemalloc.py',
-   'PYMODULE'),
-  ('pickle',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\pickle.py',
-   'PYMODULE'),
-  ('pprint',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\pprint.py',
    'PYMODULE'),
   ('doctest',
    'c:\\program files (x86)\\microsoft visual '
@@ -168,6 +132,10 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\unittest\\loader.py',
    'PYMODULE'),
+  ('fnmatch',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\fnmatch.py',
+   'PYMODULE'),
   ('unittest.suite',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\unittest\\suite.py',
@@ -176,9 +144,21 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\unittest\\case.py',
    'PYMODULE'),
+  ('pprint',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\pprint.py',
+   'PYMODULE'),
   ('logging',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\pickle.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\_compat_pickle.py',
    'PYMODULE'),
   ('unittest.result',
    'c:\\program files (x86)\\microsoft visual '
@@ -191,6 +171,10 @@
   ('pdb',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\pdb.py',
+   'PYMODULE'),
+  ('getopt',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\getopt.py',
    'PYMODULE'),
   ('pydoc',
    'c:\\program files (x86)\\microsoft visual '
@@ -224,9 +208,17 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\gzip.py',
    'PYMODULE'),
+  ('_compression',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\_compression.py',
+   'PYMODULE'),
   ('lzma',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\lzma.py',
+   'PYMODULE'),
+  ('bz2',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\bz2.py',
    'PYMODULE'),
   ('email.message',
    'c:\\program files (x86)\\microsoft visual '
@@ -280,6 +272,10 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\email\\_encoded_words.py',
    'PYMODULE'),
+  ('base64',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\base64.py',
+   'PYMODULE'),
   ('email.charset',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\email\\charset.py',
@@ -323,6 +319,10 @@
   ('email.feedparser',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('quopri',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\quopri.py',
    'PYMODULE'),
   ('uu',
    'c:\\program files (x86)\\microsoft visual '
@@ -383,14 +383,6 @@
   ('urllib.parse',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\urllib\\parse.py',
-   'PYMODULE'),
-  ('tokenize',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\tokenize.py',
-   'PYMODULE'),
-  ('token',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\token.py',
    'PYMODULE'),
   ('platform',
    'c:\\program files (x86)\\microsoft visual '
@@ -548,33 +540,33 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\__future__.py',
    'PYMODULE'),
-  ('_compat_pickle',
+  ('tracemalloc',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\_compat_pickle.py',
+   'studio\\shared\\python37_64\\lib\\tracemalloc.py',
    'PYMODULE'),
-  ('fnmatch',
+  ('_py_abc',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\fnmatch.py',
+   'studio\\shared\\python37_64\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('typing',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\typing.py',
+   'PYMODULE'),
+  ('stringprep',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\stringprep.py',
    'PYMODULE')],
- [('VCRUNTIME140.dll',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\VCRUNTIME140.dll',
-   'BINARY'),
-  ('python37.dll',
+ [('python37.dll',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\python37.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\VCRUNTIME140.dll',
    'BINARY'),
   ('select',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\DLLs\\select.pyd',
-   'EXTENSION'),
-  ('unicodedata',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\DLLs\\unicodedata.pyd',
-   'EXTENSION'),
-  ('_bz2',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\DLLs\\_bz2.pyd',
    'EXTENSION'),
   ('_socket',
    'c:\\program files (x86)\\microsoft visual '
@@ -584,6 +576,10 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\DLLs\\_lzma.pyd',
    'EXTENSION'),
+  ('_bz2',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
   ('_hashlib',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\DLLs\\_hashlib.pyd',
@@ -591,6 +587,10 @@
   ('_ssl',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('unicodedata',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\DLLs\\unicodedata.pyd',
    'EXTENSION'),
   ('pyexpat',
    'c:\\program files (x86)\\microsoft visual '

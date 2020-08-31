@@ -27,16 +27,16 @@ while True:
         else:
             proficiency = 1.0
         dfn = float(input("Their defense: "))
-        baseDamage = (atk * proficiency * 5.6 - dfn * 2.4)
+        baseDamage = (atk * 5.6 - dfn * 2.4)
         defendDamage = (baseDamage * 0.5)
         magicDefendDamage = (baseDamage * 0.7)
         counterDamage = (baseDamage * 0.9)
         print()
         print("Attack:")
-        print("If opponent defends: ", round((defendDamage * 0.95)), "damage, or", round((defendDamage * 1.05)), "damage")
-        print("If opponent magic defends: ", round((magicDefendDamage * 0.95)), "damage, or", round((magicDefendDamage * 1.05)), "damage")
-        print("If opponent counters: ", round((counterDamage * 0.95)), "damage, or", round((counterDamage * 1.05)), "damage")
-        print("If opponent can't react: ", round((baseDamage * 0.95)), "damage, or", round((baseDamage * 1.05)), "damage")
+        print("If opponent defends: ", round((defendDamage * 0.95) * proficiency), "damage, or", round((defendDamage * 1.05) * proficiency), "damage")
+        print("If opponent magic defends: ", round((magicDefendDamage * 0.95) * proficiency), "damage, or", round((magicDefendDamage * 1.05) * proficiency), "damage")
+        print("If opponent counters: ", round((counterDamage * 0.95) * proficiency), "damage, or", round((counterDamage * 1.05) * proficiency), "damage")
+        print("If opponent can't react: ", round((baseDamage * 0.95) * proficiency), "damage, or", round((baseDamage * 1.05) * proficiency), "damage")
         print()
     if aTp == "magic" or aTp == "full":
         atk = float(input("Your MG: "))
@@ -202,27 +202,17 @@ while True:
         print()
     if aTp == "strike" or aTp == "full":
         atkAtk = float(input("Your attack: "))
-        atkProficiency = input("Do you have a proficiency: ")
-        if atkProficiency == "yes":
-            atkProficiency = 1.3
-        else:
-            atkProficiency = 1
         atkDfn = float(input("Your defense: "))
         atkMagic = float(input("Your MG: "))
         atkSpeed = float(input("Your speed: "))
         dfnAtk = float(input("Their attack: "))
-        dfnProficiency = input("Do they have a proficiency: ")
-        if dfnProficiency == "yes":
-            dfnProficiency = 1.3
-        else:
-            dfnProficiency = 1.0
         dfnDfn = float(input("Their defense: "))
         dfnMagic = float(input("Their MG: "))
         dfnSpeed = float(input("Their speed: "))
-        baseDamage = (atkAtk * atkProficiency + atkMagic + atkSpeed) * 6.25 - (dfnDfn + dfnMagic + dfnSpeed) * 2.5
+        baseDamage = (atkAtk + atkMagic + atkSpeed) * 6.25 - (dfnDfn + dfnMagic + dfnSpeed) * 2.5
         defendDamage = (baseDamage * 0.64)
         magicDefendDamage = (baseDamage * 0.68)
-        counterDamage = (dfnAtk * dfnProficiency + dfnMagic + dfnSpeed) * 4 + (atkAtk * atkProficiency - atkDfn) * 2
+        counterDamage = (dfnAtk + dfnMagic + dfnSpeed) * 4 + (atkAtk - atkDfn) * 2
         print()
         print("Strike:")
         print("If opponent defends: ", round((defendDamage * 0.95)), "damage, or", round((defendDamage * 1.05)), "damage")
